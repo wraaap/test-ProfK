@@ -1,0 +1,18 @@
+// Заголовки, общие БЄМ блоки и проче...
+
+.button {
+    flex: 1 0 auto;
+    align-items: center;
+    height: 50px;
+    background-color: $secondColor;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: rem(14);
+    line-height: math.div(17, 14);
+    padding: rem(15) rem(35);
+    @media (any-hover: hover) {
+        &:hover {
+            background-color: #eac22f;
+        }
+    }
+}
